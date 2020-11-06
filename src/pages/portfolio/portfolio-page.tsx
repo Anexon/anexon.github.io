@@ -38,7 +38,7 @@ function PortfolioPage(props: any) {
       <h1>
         <Text tid="portfolioReposHeader"></Text>
       </h1>
-      <p>Startups, tecnología, herramientas, agile, métricas, negocio y otras reflexiones...</p>
+      <p>Un workspace en el ir iniciando proyectos, tests y otras cosas de laboratorio...</p>
       <div className="project-cards-container">
         {isLoading && (
           <div className="loader">
