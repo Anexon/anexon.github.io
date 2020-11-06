@@ -24,7 +24,7 @@ function SpecializationIn() {
           description=
           {
             <>
-              <span>Ingeniero industrail autodidacta apasionado por la tecnología y el software. Trabajo como frontend, backend y devops con las últimas herramientas.</span>
+              <span>Ingeniero industrial autodidacta apasionado por la tecnología y el software. Trabajo como frontend, backend y devops con las últimas herramientas.</span>
             </>
           }
           imgUrl="/resources/develop.svg"></SpecializationCard>
