@@ -56,9 +56,9 @@ function SpecializationIn() {
                     <div className="cell">
                         <div className="inner-content">
                             <div>
-                                <h3>Angular Málaga</h3>
-                                <small>Coordinador y ponente</small>
-                                <p>Colaboración en la organización de múltiples meetups y ponente. Contribuidor en el repositorio de Angular Communities.</p>
+                                <h3>Tomarani's Studio</h3>
+                                <small>Equipo de Desarrollo de Videojuegos</small>
+                                <p>Desarrollador Fullstack, herramientas para maquetación de niveles, animación, lógica de juego y controles de jugador.</p>
                             </div>
                         </div>
                     </div>
@@ -68,6 +68,15 @@ function SpecializationIn() {
                                 <h3>QBBO</h3>
                                 <small>Plataforma de ofertas en ocio nocturno</small>
                                 <p>Desarrollo y comercialización plataforma web (Angular) y aplicación nativa (Android e Ionic).</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="cell">
+                        <div className="inner-content">
+                            <div>
+                                <h3>Angular Málaga</h3>
+                                <small>Coordinador y ponente</small>
+                                <p>Colaboración en la organización de múltiples meetups y ponente. Contribuidor en el repositorio de Angular Communities.</p>
                             </div>
                         </div>
                     </div>

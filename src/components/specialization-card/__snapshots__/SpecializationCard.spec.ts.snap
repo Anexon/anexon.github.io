@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Renders correctly 1`] = `
+<div
+  className="specialization-card-container show-on-scroll "
+>
+  <img
+    src="una url.svg"
+  />
+  <h3>
+    Título
+  </h3>
+  <p>
+    Descripción
+  </p>
+</div>
+`;

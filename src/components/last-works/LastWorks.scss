@@ -8,10 +8,10 @@ $data: ((background_image: "/resources/last-works/trampoline_background.svg",
         growth: 1.5,
         background_color: #2ecc71,
         background_position: center),
-    // (background_image: "/resources/last-works/angular_malaga_background.jpg",
-    //     growth: 1.3,
-    //     background_color: #3498db,
-    //     background_position: center -50px),
+    (background_image: "/resources/last-works/tomarani.png",
+        growth: 1.3,
+        background_color: #3498db,
+        background_position: center -50px),
     (background_image: "/resources/last-works/willimbu_background.jpg",
         growth: 1.3,
         background_color: #9b59b6,
@@ -20,22 +20,23 @@ $data: ((background_image: "/resources/last-works/trampoline_background.svg",
         growth: 1.1,
         background_color: #34495e,
         background_position: center),
-    // (background_image: "/resources/last-works/qbbo_background.png",
-    //     growth: 1,
-    //     background_color: #f1c40f,
-    //     background_position: center),
-    (background_image: "/resources/last-works/angular_malaga_background.jpg",
+    (background_image: "/resources/last-works/qbbo_background.png",
         growth: 1,
-        background_color: #e67e22,
+        background_color: #f1c40f,
         background_position: center),
+    (background_image: "/resources/last-works/tomarani.png",
+        growth: 1,
+        background_color: #3498db,
+        background_position: center),
+
     (background_image: "/resources/last-works/qbbo_background.png",
         growth: 1,
         background_color: #e74c3c,
+        background_position: center),
+    (background_image: "/resources/last-works/angular_malaga_background.jpg",
+        growth: 1,
+        background_color: #e67e22,
         background_position: center));
-// (background_image: "/resources/last-works/qbbo_background.png",
-//     growth: 1.5,
-//     background_color: #ecf0f1,
-//     background_position: center));
 
 .last-works-title {
     width: 100%;
@@ -63,7 +64,7 @@ $data: ((background_image: "/resources/last-works/trampoline_background.svg",
     padding: var(--inner-padding);
     display: flex;
     align-items: stretch;
-    height: 450px;
+    height: 500px;
     margin: auto;
     flex-wrap: wrap;
     box-sizing: content-box;
@@ -72,8 +73,8 @@ $data: ((background_image: "/resources/last-works/trampoline_background.svg",
 
         .column:nth-child(#{$i}) {
 
-            @for $j from 1 through 2 {
-                $rowIndex: $i * 2 + $j - 2;
+            @for $j from 1 through 3 {
+                $rowIndex: $i * 3 + $j - 3;
                 $chunk: nth($data, $rowIndex);
 
                 .cell:nth-child(#{$j}) {

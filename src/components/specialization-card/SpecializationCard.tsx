@@ -2,7 +2,7 @@ import React, { Fragment } from "react";
 import "./SpecializationCard.scss";
 import { Text } from "../../containers/Language";
 
-function SpecializationCard(params: any) {
+function SpecializationCard(params?: any) {
 
     return (
         <div className={`specialization-card-container show-on-scroll ${params.highlighted == "true" ? "highlighted" : ""}`}>
