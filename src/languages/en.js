@@ -1,17 +1,18 @@
 const en = {
   "navbarOption1": "Portfolio",
-  "summary": "Resumen",
-  "summaryDescription1": "Soy una persona dinámica y creativa, con gran capacidad para trabajar sobre presión y para gestionar situaciones imprevistas.",
+  "summaryTopText": "Hola!",
+  "summary": "Soy Rubén Triviño",
+  "summaryDescription1": "Soy un emprendedor en serie y me encanta coordinar proyectos en el ámbito tecnológico. Me apasionan los desafíos y dar solución a los problemas de forma creativa.",
   "summaryDescription2": `A la hora de abordar un proyecto no pierdo la visión global y mantengo el foco sobre 
     los objetivos principales. Para mí, la
     comunicación con el equipo es fundamental para orientar los
     esfuerzos hacía un mismo fin y mantener un ambiente enérgico.`,
-  "letstalk": "Let's talk",
+  "letstalk": "¿Hablamos?",
   "entrepeneurHastag": "#emprendedor",
   "curiosHastag": "#curioso",
   "creativeHastag": "#creativo",
   "adventurerHastag": "#aventurero",
-  "knowledgeAreas": "Áreas de Conocimiento",
+  "knowledgeAreas": "Especialización",
   "businessAdministrationTitle": "Organización de Empresas",
   "businessAdministrationDescription": `Como cofundador de varias empresas he sido responsable de la
     administración, organización y coordenación de los recursos
